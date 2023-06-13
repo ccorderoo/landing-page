@@ -1,0 +1,153 @@
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    height: 55px;
+    width: auto;
+    border: 2px solid black;
+}
+
+.first-section-container, .header-container, .second-section-container, .third-section-container {
+    margin: 0px 225px 0px 225px;
+    display: flex;
+    justify-content: space-between;
+}
+/*  Header  */
+header {
+    background-color: rgb(48, 64, 94);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    margin-top: 5px;
+    border: none;
+}
+
+.header-container .logo {
+    display: flex;
+    gap: 7px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.header-container {
+    flex: 1;
+    align-items: center;
+}
+
+.header-container nav, .header-container nav li a{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    color: white;
+    text-decoration: none;
+}
+/* First Section */
+#first-section {
+    background-color: rgb(48, 64, 94);
+    color: white;
+}
+.first-section-container .left-side img{
+    height: 180px;
+    width: auto;
+    margin: 10px 0px 50px 0px;
+}
+.right-side {
+    width: 450px;
+}
+/* Second Section */
+.second-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bottom {
+    display: flex;
+    gap: 55px;
+}
+
+.bottom .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.bottom .bottom img {
+    height: 150px;
+    width: auto;
+}
+
+.bottom .bottom p {
+    margin: 10px 0px 0px 0px;
+}
+/* Third Section */
+#third-section {
+    background-color: lightgray;
+}
+
+.third-section-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.third-section-container p {
+    font-style: italic;
+    font-size: larger;
+    text-align: center;
+    margin: 45px 0px 0px 0px;
+    padding: 0;
+}
+
+.third-section-container small {
+    text-align: center;
+    margin: 0px 0px 45px 200px;
+}
+/* Fourth Section */
+.fourth-section-container {
+    background-color: aqua;
+    margin: 70px 440px 70px 400px;
+    display: flex;
+}
+
+.fourth-section-container .left-side, .fourth-section-container .right-side {
+    margin-left: 75px;
+    display: flex;
+}
+
+.fourth-section-container .left-side {
+    flex-direction: column;
+    width: 500px;
+    padding: 0;
+}
+
+.fourth-section-container .left-side h3 {
+    margin-bottom: 0;
+}
+
+.fourth-section-container .left-side p {
+    margin-top: 0;
+}
+.fourth-section-container .right-side {
+    align-items: center;
+    margin-left: 115px;
+}
+
+.fourth-section-container .right-side button {
+    padding: 0px 10px 0px 10px;
+}
+/* Footer */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(48, 64, 94);
+    color: white;
+}
